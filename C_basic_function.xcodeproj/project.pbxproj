@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3EDD6979283C07B800EA3430 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3EDD6978283C07B800EA3430 /* main.c */; };
+		3EDD6981283C0C2100EA3430 /* SimpleAddFunc.c in Sources */ = {isa = PBXBuildFile; fileRef = 3EDD6980283C0C2100EA3430 /* SimpleAddFunc.c */; };
+		3EDD6984283C14A700EA3430 /* SmartAddFunc.c in Sources */ = {isa = PBXBuildFile; fileRef = 3EDD6983283C14A700EA3430 /* SmartAddFunc.c */; };
+		3EDD6987283CA8E300EA3430 /* AbsCompare.c in Sources */ = {isa = PBXBuildFile; fileRef = 3EDD6986283CA8E300EA3430 /* AbsCompare.c */; };
+		3EDD698A283CAAEE00EA3430 /* Prob1.c in Sources */ = {isa = PBXBuildFile; fileRef = 3EDD6989283CAAEE00EA3430 /* Prob1.c */; };
+		3EDD698D283CC52400EA3430 /* Prob3.c in Sources */ = {isa = PBXBuildFile; fileRef = 3EDD698C283CC52400EA3430 /* Prob3.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		3EDD6975283C07B800EA3430 /* C_basic_function */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_basic_function; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EDD6978283C07B800EA3430 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3EDD697F283C0C2100EA3430 /* SimpleAddFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleAddFunc.h; sourceTree = "<group>"; };
+		3EDD6980283C0C2100EA3430 /* SimpleAddFunc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SimpleAddFunc.c; sourceTree = "<group>"; };
+		3EDD6982283C14A700EA3430 /* SmartAddFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartAddFunc.h; sourceTree = "<group>"; };
+		3EDD6983283C14A700EA3430 /* SmartAddFunc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SmartAddFunc.c; sourceTree = "<group>"; };
+		3EDD6985283CA8E300EA3430 /* AbsCompare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbsCompare.h; sourceTree = "<group>"; };
+		3EDD6986283CA8E300EA3430 /* AbsCompare.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = AbsCompare.c; sourceTree = "<group>"; };
+		3EDD6988283CAAEE00EA3430 /* Prob1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prob1.h; sourceTree = "<group>"; };
+		3EDD6989283CAAEE00EA3430 /* Prob1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Prob1.c; sourceTree = "<group>"; };
+		3EDD698B283CC52400EA3430 /* Prob3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prob3.h; sourceTree = "<group>"; };
+		3EDD698C283CC52400EA3430 /* Prob3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Prob3.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				3EDD6978283C07B800EA3430 /* main.c */,
+				3EDD697F283C0C2100EA3430 /* SimpleAddFunc.h */,
+				3EDD6980283C0C2100EA3430 /* SimpleAddFunc.c */,
+				3EDD6982283C14A700EA3430 /* SmartAddFunc.h */,
+				3EDD6983283C14A700EA3430 /* SmartAddFunc.c */,
+				3EDD6985283CA8E300EA3430 /* AbsCompare.h */,
+				3EDD6986283CA8E300EA3430 /* AbsCompare.c */,
+				3EDD6988283CAAEE00EA3430 /* Prob1.h */,
+				3EDD6989283CAAEE00EA3430 /* Prob1.c */,
+				3EDD698B283CC52400EA3430 /* Prob3.h */,
+				3EDD698C283CC52400EA3430 /* Prob3.c */,
 			);
 			path = C_basic_function;
 			sourceTree = "<group>";
@@ -119,7 +144,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EDD698D283CC52400EA3430 /* Prob3.c in Sources */,
+				3EDD698A283CAAEE00EA3430 /* Prob1.c in Sources */,
 				3EDD6979283C07B800EA3430 /* main.c in Sources */,
+				3EDD6981283C0C2100EA3430 /* SimpleAddFunc.c in Sources */,
+				3EDD6987283CA8E300EA3430 /* AbsCompare.c in Sources */,
+				3EDD6984283C14A700EA3430 /* SmartAddFunc.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

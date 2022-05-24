@@ -5,10 +5,6 @@
 //  Created by 김태완 on 2022/05/24.
 //
 
-#include <stdio.h>
+//#include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
-}
+//This is the source file for the chapter 9-1
