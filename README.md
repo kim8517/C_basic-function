@@ -160,7 +160,7 @@ The example answer is following
             return num;
         }
     }
-{https://github.com/kim8517/C_basic-function/blob/main/C_basic_function/AbsCompare.c}
+{https://github.com/kim8517/C_basic-function/blob/main/C_basic_function/AbsCompare.c }
 Note that two returns are written in the functions. It is not a problem because actually it is used once for each function. For example,
 in GetAbsoValue if input num is lower than 0, only return in the 'if' works, return in the 'else' affecting not at all.
 
@@ -169,7 +169,7 @@ in GetAbsoValue if input num is lower than 0, only return in the 'if' works, ret
 * Strategy: Consider how a human determine the maixmum value. When three numbers are given, one arbitarily chooses two, say first and secone number, 
 and compare them. Suppose the first is bigger than the second. Then, he or she compares that with the third number. 
 The maximum is the bigger one among them. Note that you don't have to compare second and third one(Remember efficiency will determine your future income!)
-* [Example answer]{https://github.com/kim8517/C_basic-function/blob/main/C_basic_function/Prob1.c}
+* [Example answer]{https://github.com/kim8517/C_basic-function/blob/main/C_basic_function/Prob1.c }
 
 (2) 09-3
 * Strategy: This requires the mathematical intution: recurrence relation. There are two ways to define a series.
@@ -178,7 +178,7 @@ Usually fibonacci sereris is defined by the recurrence relation, a_{n} = a_{n-1}
 You have to exploit it. First, we must define intial terms f1 = 0 and f2 = 1, since it is independently determined. Then, calculate third term f3 as f1+f2.
 Print f3. To find fourth term, we have to do calculation f3+f2. But it is same calculation with f1+f2 if you replace f3 -> f2 and f2 -> f1
 Therefore by updating f2=f3 and f1=f2 before doing f1+f2, we can get the fourth term. Repeat this until reaching the number you want.
-* [Example answer]{https://github.com/kim8517/C_basic-function/blob/main/C_basic_function/Prob3.c}
+* [Example answer]{https://github.com/kim8517/C_basic-function/blob/main/C_basic_function/Prob3.c }
 
 
 
